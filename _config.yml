@@ -85,18 +85,18 @@ author:
   location         : "Ljubljana"
   email            : "ferenc.matej@gmail.com"
   uri              :
+  linkedin         : &linkdin "matejferenc91"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://www.facebook.com/mferenc"
+  facebook         : "mferenc"
   foursquare       :
-  github           : "https://github.com/MFProduction"
+  github           : &github "MFProduction"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://si.linkedin.com/in/matejferenc91"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
