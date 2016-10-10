@@ -10,11 +10,11 @@ locale                   : "en"
 title                    : &title "MFProduction"
 title_separator          : "|"
 name                     : &name "Matej Ferenc"
-description              : "Blog and Bio"
+description              : "MFProduction is Matej Ferenc's official webpage"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "black-code.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -30,7 +30,7 @@ comments:
     colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -79,7 +79,9 @@ analytics:
 author:
   name             : "Matej Ferenc"
   avatar           : "bio-photo.jpg"
-  bio              : "BreakDancingPunkPlayingProgrammer"
+  bio              : "BreakDancing
+                      PunkPlaying
+                      Programmer"
   location         : "Ljubljana"
   email            : "ferenc.matej@gmail.com"
   uri              :

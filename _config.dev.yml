@@ -10,11 +10,11 @@ locale                   : "en"
 title                    : &title "MFProduction"
 title_separator          : "|"
 name                     : &name "Matej Ferenc"
-description              : "Blog and Bio"
-url                      : "http:localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "MFProduction is Matej Ferenc's official webpage"
+url                      : "localhost:4000" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "black-code.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -30,7 +30,7 @@ comments:
     colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
+  branch                 : "master" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -77,24 +77,26 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Matej Ferenc"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "BreakDancing
+                      PunkPlaying
+                      Programmer"
+  location         : "Ljubljana"
+  email            : "ferenc.matej@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/mferenc"
   foursquare       :
-  github           :
+  github           : "https://github.com/MFProduction"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://si.linkedin.com/in/matejferenc91"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
